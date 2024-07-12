@@ -43,5 +43,6 @@ void testb_main ()
     using std::format;
     cout << format( "target.name = {}\n", target.get_name() );
     cout << "testb_main end\n";
+    cout << "testb_main end\n";
 }
 }
