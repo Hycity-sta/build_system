@@ -21,7 +21,7 @@ public:
         this->option = option;
     }
 
-    auto get_name () const -> std::string
+    [[nodiscard]] auto get_name () const -> std::string
     {
         return this->name;
     }
